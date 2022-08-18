@@ -61,21 +61,23 @@ ul {
 }
 #conteudo {
     width: 750px;
-    height: 700px;
+    height: 1000px;
     background: #1e1a20;
 }
 #primario {
     width: 365px;
     background: #36323c;
+    border-radius: 5px;
     margin: 0 20px 0 0;
     float: left;
-    height: 600px;
+    height: 650px;
 }
 #secundario {
     width: 365px;
     background: #36323c;
+    border-radius: 5px;
     float: left;
-    height: 600px;
+    height: 650px;
 }
 
 #noticia {
@@ -91,9 +93,32 @@ p {
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
 }
-#rodape {
-    background: #36323c;
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #36323c;
+    color: #FFF;
     width: 100%;
-    height: 60px;
-    margin-top: 550px;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+}
+#mundo {
+    background: #1e1a20;
+    border-radius: 5px;
+    width: auto;
+    height: 30px;
+    margin: 10px;
+}
+#local {
+    background: #1e1a20;
+    border-radius: 5px;
+    width: auto;
+    height: 30px;
+    margin: 10px;
+}
+h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
 }
